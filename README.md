@@ -1,18 +1,18 @@
-<p style="font-size: 32px; font-weight: 700;">
- zero | nikhilswain (•‿•)
-</p>
+# zero | nikhilswain (•‿•)
 
 `ship → break → fix → repeat`
 
-<p style="font-size: 20px; font-weight: 500;">
-Builds simple things that work, breaks them, then fixes them better.
-</p>
+### Builds simple things that work, breaks them, then fixes them better.
 
 <br>
 
 ![](https://github-readme-stats-neon-two-seqd2517y4.vercel.app/api?username=nikhilswain&theme=dark&show_icons=true&hide_border=true&hide_rank=true&cache_seconds=86400)
 
 ![](https://github-readme-stats-neon-two-seqd2517y4.vercel.app/api/top-langs/?username=nikhilswain&theme=dark&layout=compact&hide_border=true&cache_seconds=86400)
+
+<br>
+
+---
 
 <br>
 
@@ -27,15 +27,12 @@ Builds simple things that work, breaks them, then fixes them better.
 
 <br>
 
- <p style="font-size: 24px; font-weight: 700;">Languages & Tools</p>
+ ### Languages & Tools
 
 ![tools](https://skillicons.dev/icons?i=js,ts,react,astro,nextjs,tailwind,nestjs,nodejs,mongodb,postgres,git)
 
 <br>
 
----
 
- <p style="font-size: 46px; font-weight: 700;">
-  Hesitation is defeat
-</p>
+# Hesitation is defeat
 <img src="https://media1.tenor.com/m/R7AvL0pA2vUAAAAC/sekiro-samurai.gif" width="420"/>
