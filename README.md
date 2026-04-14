@@ -6,9 +6,9 @@
 
 <br>
 
-![](https://github-readme-stats-git-master-nikhilswains-projects.vercel.app/api?username=nikhilswain&show_icons=true&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=aaaaaa&icon_color=ffffff&hide_rank=true)
+![](https://github-readme-stats-git-master-nikhilswains-projects.vercel.app/api?username=nikhilswain&show_icons=true&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=aaaaaa&icon_color=ffffff&hide_rank=true&cache_seconds=86400)
 
-![](https://github-readme-stats-git-master-nikhilswains-projects.vercel.app/api/top-langs/?username=nikhilswain&layout=compact&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=aaaaaa)
+![](https://github-readme-stats-git-master-nikhilswains-projects.vercel.app/api/top-langs/?username=nikhilswain&layout=compact&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=aaaaaa&cache_seconds=86400)
 
 <br>
 
