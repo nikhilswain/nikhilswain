@@ -4,11 +4,15 @@
 
 `ship → break → fix → repeat`
 
+<p style="font-size: 20px; font-weight: 500;">
+Builds simple things that work, breaks them, then fixes them better.
+</p>
+
 <br>
 
-![](https://github-readme-stats-git-master-nikhilswains-projects.vercel.app/api?username=nikhilswain&show_icons=true&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=aaaaaa&icon_color=ffffff&hide_rank=true&cache_seconds=86400)
+![](https://github-readme-stats-neon-two-seqd2517y4.vercel.app/api?username=nikhilswain&theme=dark&show_icons=true&hide_border=true&hide_rank=true&cache_seconds=86400)
 
-![](https://github-readme-stats-git-master-nikhilswains-projects.vercel.app/api/top-langs/?username=nikhilswain&layout=compact&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=aaaaaa&cache_seconds=86400)
+![](https://github-readme-stats-neon-two-seqd2517y4.vercel.app/api/top-langs/?username=nikhilswain&theme=dark&layout=compact&hide_border=true&cache_seconds=86400)
 
 <br>
 
@@ -19,22 +23,17 @@
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:nikhilswain36@gmail.com)
 [![Followers](https://img.shields.io/github/followers/nikhilswain?style=flat&color=0e1117)]()
 
-<br>
-
-<p style="font-size: 26px; font-weight: 700;">
-  About
-</p>
-
-builds simple things that work  
-breaks them, then fixes them better
+---
 
 <br>
 
-## Tools
+ <p style="font-size: 24px; font-weight: 700;">Languages & Tools</p>
 
 ![tools](https://skillicons.dev/icons?i=js,ts,react,astro,nextjs,tailwind,nestjs,nodejs,mongodb,postgres,git)
 
 <br>
+
+---
 
  <p style="font-size: 46px; font-weight: 700;">
   Hesitation is defeat
