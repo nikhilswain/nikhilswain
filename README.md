@@ -4,14 +4,6 @@
 
 ### Builds simple things that work, breaks them, then fixes them better.
 
-<br>
-
-![](https://github-readme-stats-neon-two-seqd2517y4.vercel.app/api?username=nikhilswain&theme=dark&hide_border=true&include_all_commits=true&count_private=true&hide_rank=true&show_icons=true&cache_seconds=86400)
-
-![](https://github-readme-stats-neon-two-seqd2517y4.vercel.app/api/top-langs/?username=nikhilswain&theme=dark&layout=compact&hide_border=true&cache_seconds=86400)
-
-<br>
-
 ---
 
 <br>
