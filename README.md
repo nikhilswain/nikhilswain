@@ -8,7 +8,7 @@
 
 <br>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-111111?style=flat&logo=vercel&logoColor=white)](https://z-portfolio.zerro.dev)
+[![Portfolio](https://img.shields.io/badge/Portfolio-111111?style=flat&logo=vercel&logoColor=white)](https://zerro.dev)
 [![X](https://img.shields.io/badge/X-000000?style=flat&logo=twitter&logoColor=white)](https://x.com/iamn1khil)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://instagram.com/iamn1khil)
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white)](https://medium.com/@nikhilswain36)
