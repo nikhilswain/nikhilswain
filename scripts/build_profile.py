@@ -104,9 +104,9 @@ def fetch_stats():
         d = gql("""query($login:String!,$after:String){user(login:$login){
               followers{totalCount}
               repositoriesContributedTo(contributionTypes:[COMMIT,PULL_REQUEST,REPOSITORY]){totalCount}
-              repositories(ownerAffiliations:OWNER, privacy:PUBLIC, first:100, after:$after){
+              repositories(ownerAffiliations:OWNER, first:100, after:$after){
                 pageInfo{hasNextPage endCursor}
-                nodes{name stargazerCount isFork}}}}""", login=USER, after=cursor)["user"]
+                nodes{name stargazerCount isFork isPrivate}}}}""", login=USER, after=cursor)["user"]
         page = d["repositories"]
         repos += page["nodes"]
         if not page["pageInfo"]["hasNextPage"]:
@@ -122,7 +122,8 @@ def fetch_stats():
         commits += cc["totalCommitContributions"]
 
     added = deleted = 0
-    for repo in (r for r in repos if not r["isFork"]):
+    public = [r for r in repos if not r["isPrivate"]]  # shown counts stay public
+    for repo in (r for r in repos if not r["isFork"]):  # LOC includes private
         url = f"https://api.github.com/repos/{USER}/{repo['name']}/stats/contributors"
         for _ in range(8):  # GitHub answers 202 while it computes the stats
             try:
@@ -139,9 +140,9 @@ def fetch_stats():
                 deleted += sum(w["d"] for w in author["weeks"])
 
     return {
-        "repos": len(repos),
+        "repos": len(public),
         "contributed": d["repositoriesContributedTo"]["totalCount"],
-        "stars": sum(r["stargazerCount"] for r in repos),
+        "stars": sum(r["stargazerCount"] for r in public),
         "followers": d["followers"]["totalCount"],
         "commits": commits,
         "added": added,
