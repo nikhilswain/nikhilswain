@@ -140,7 +140,7 @@ def fetch_stats():
                 deleted += sum(w["d"] for w in author["weeks"])
 
     return {
-        "repos": len(public),
+        "repos": len(repos),  # all owned, incl. private (matches the Repositories tab you see)
         "contributed": d["repositoriesContributedTo"]["totalCount"],
         "stars": sum(r["stargazerCount"] for r in public),
         "followers": d["followers"]["totalCount"],
